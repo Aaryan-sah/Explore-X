@@ -1,0 +1,53 @@
+<style>
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden; /* To ensure no overflow */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.background-clip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* This property makes sure the image covers the whole div without distortion */
+  z-index: -1;
+}
+
+.content {
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 95px;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.content a {
+  font-size: 23px;
+  color: #fff;
+  text-decoration: none;
+  border: 2px solid #fff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+
+.content a:hover {
+  background-color: #fff;
+  color: black;
+}
+</style> 
